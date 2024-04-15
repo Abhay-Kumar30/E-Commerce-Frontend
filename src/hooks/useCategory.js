@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { REACT_APP_API } from "../context/helper";
 import toast from "react-hot-toast";
+
 export default function useCategory() {
 
   const [categories, setCategories] = useState([]);
-
   //get cat
   const getCategories = async () => {
     try {
