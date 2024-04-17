@@ -9,6 +9,7 @@ import { useCart } from "../../context/cart";
 import { useAuth } from "../../context/auth";
 import { REACT_APP_API } from "../../context/helper";
 
+
 const HomePage = () => {
     const navigate=useNavigate();
     const [loading, setLoading] = useState(false);
